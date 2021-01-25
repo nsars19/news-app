@@ -1,0 +1,1 @@
+(async function(o){const a=await fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=9f72ac6bf76b461f95791590b3ad2083"),c=await a.json();console.log(c)})().catch((o=>console.log(o))),console.log("yo");
